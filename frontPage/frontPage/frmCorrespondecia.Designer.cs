@@ -39,7 +39,6 @@
             this.lblAnexos = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.lblMensagem = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.btnEnviar = new System.Windows.Forms.Button();
             this.btnAnexos = new System.Windows.Forms.Button();
@@ -128,15 +127,6 @@
             this.richTextBox1.TabIndex = 10;
             this.richTextBox1.Text = "";
             // 
-            // lblMensagem
-            // 
-            this.lblMensagem.AutoSize = true;
-            this.lblMensagem.Location = new System.Drawing.Point(8, 292);
-            this.lblMensagem.Name = "lblMensagem";
-            this.lblMensagem.Size = new System.Drawing.Size(81, 17);
-            this.lblMensagem.TabIndex = 11;
-            this.lblMensagem.Text = "Mensagem:";
-            // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
@@ -179,7 +169,6 @@
             this.Controls.Add(this.btnAnexos);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.lblMensagem);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.lblAnexos);
@@ -213,7 +202,6 @@
         private System.Windows.Forms.Label lblAnexos;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Label lblMensagem;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button btnEnviar;
         private System.Windows.Forms.Button btnAnexos;
