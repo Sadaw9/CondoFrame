@@ -12,3 +12,17 @@ D:\PEDRO\frontPage\frontPage\obj\Debug\frontPage.frmPortaria.resources
 D:\PEDRO\frontPage\frontPage\obj\Debug\frontPage.funcao2.resources
 D:\PEDRO\frontPage\frontPage\obj\Debug\frontPage.funcao3.resources
 D:\PEDRO\frontPage\frontPage\obj\Debug\frontPage.funcao4.resources
+D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.csprojAssemblyReference.cache
+D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.frmMensagens.resources
+D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.frmMenu.resources
+D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.frmPortaria.resources
+D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.frmCorrespondecia.resources
+D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.frmReservas.resources
+D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.csproj.GenerateResource.cache
+D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.exe
+D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.pdb
+D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\bin\Debug\frontPage.exe.config
+D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\bin\Debug\frontPage.exe
+D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\bin\Debug\frontPage.pdb
+D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.Properties.Resources.resources
+D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.csproj.CoreCompileInputs.cache
