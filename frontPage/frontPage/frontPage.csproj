@@ -46,9 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Correspodência%28TESTE%29.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Correspodência%28TESTE%29.cs" />
     <Compile Include="Correspodência%28TESTE%29.Designer.cs">
       <DependentUpon>Correspodência%28TESTE%29.cs</DependentUpon>
     </Compile>
