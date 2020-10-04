@@ -46,10 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Correspodência%28TESTE%29.cs" />
-    <Compile Include="Correspodência%28TESTE%29.Designer.cs">
-      <DependentUpon>Correspodência%28TESTE%29.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmMensagens.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,9 +78,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Correspodência%28TESTE%29.resx">
-      <DependentUpon>Correspodência%28TESTE%29.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmMensagens.resx">
       <DependentUpon>frmMensagens.cs</DependentUpon>
     </EmbeddedResource>

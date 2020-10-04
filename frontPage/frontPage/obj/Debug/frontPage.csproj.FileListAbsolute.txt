@@ -26,3 +26,17 @@ D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\bin\Debug\frontPage.exe
 D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\bin\Debug\frontPage.pdb
 D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.Properties.Resources.resources
 D:\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.csproj.CoreCompileInputs.cache
+C:\Users\Ponto  Frio\Desktop\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.csprojAssemblyReference.cache
+C:\Users\Ponto  Frio\Desktop\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.frmMensagens.resources
+C:\Users\Ponto  Frio\Desktop\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.frmMenu.resources
+C:\Users\Ponto  Frio\Desktop\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.frmPortaria.resources
+C:\Users\Ponto  Frio\Desktop\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.frmCorrespondecia.resources
+C:\Users\Ponto  Frio\Desktop\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.frmReservas.resources
+C:\Users\Ponto  Frio\Desktop\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.Properties.Resources.resources
+C:\Users\Ponto  Frio\Desktop\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.csproj.GenerateResource.cache
+C:\Users\Ponto  Frio\Desktop\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.csproj.CoreCompileInputs.cache
+C:\Users\Ponto  Frio\Desktop\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.exe
+C:\Users\Ponto  Frio\Desktop\PEDRO\TCC\CondoFrame\frontPage\frontPage\obj\Debug\frontPage.pdb
+C:\Users\Ponto  Frio\Desktop\PEDRO\TCC\CondoFrame\frontPage\frontPage\bin\Debug\frontPage.exe.config
+C:\Users\Ponto  Frio\Desktop\PEDRO\TCC\CondoFrame\frontPage\frontPage\bin\Debug\frontPage.exe
+C:\Users\Ponto  Frio\Desktop\PEDRO\TCC\CondoFrame\frontPage\frontPage\bin\Debug\frontPage.pdb

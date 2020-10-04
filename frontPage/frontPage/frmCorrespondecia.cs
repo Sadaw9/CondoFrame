@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
 using System.Net.Mail;
 using System.Web;
 using System.IO;
-//saldanha PINTAO
+
 
 namespace frontPage
 {
@@ -29,7 +30,7 @@ namespace frontPage
 
         }
 
-        private void btnEnviar_Click(object sender, EventArgs e)
+        /*private void btnEnviar_Click(object sender, EventArgs e)
         {
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 587;
@@ -66,9 +67,9 @@ namespace frontPage
 
             smtp.Send(mail);
             MessageBox.Show("Email Enviado");
-        }
+        }*/
 
-        private void btnAnexos_Click(object sender, EventArgs e)
+        /*private void btnAnexos_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog dialog = new OpenFileDialog())
             {
@@ -80,6 +81,35 @@ namespace frontPage
                         listBox1.Items.Add(file);
                     }
                 }
+            }
+        }*/
+
+        private void btnEnviar_Click(object sender, EventArgs e)
+        {
+            string to, from, pass, mail;
+            to = (txtDest.Text).ToString();
+            from = (txtRem.Text).ToString();
+            mail = (txtMSG.Text).ToString();
+            pass = (txtSen).ToString();
+            MailMessage message = new MailMessage();
+            message.To.Add(to);
+            message.From = new MailAddress(from);
+            message.Body = mail;
+            message.Subject ="Testing Mail";
+            SmtpClient smtp = new SmtpClient("smtp.gmail.com");
+            smtp.EnableSsl = true;
+            smtp.Port = 587;
+            smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+            smtp.Credentials = new NetworkCredential(from, pass);
+            try
+            {
+                smtp.Send(message);
+                MessageBox.Show("Email send successfully", "Email", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
     }
