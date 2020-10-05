@@ -49,109 +49,105 @@
             // lblPara
             // 
             this.lblPara.AutoSize = true;
-            this.lblPara.Location = new System.Drawing.Point(233, 30);
-            this.lblPara.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPara.Location = new System.Drawing.Point(311, 37);
             this.lblPara.Name = "lblPara";
-            this.lblPara.Size = new System.Drawing.Size(32, 13);
+            this.lblPara.Size = new System.Drawing.Size(42, 17);
             this.lblPara.TabIndex = 0;
             this.lblPara.Text = "Para:";
             // 
             // lblCc
             // 
             this.lblCc.AutoSize = true;
-            this.lblCc.Location = new System.Drawing.Point(244, 54);
-            this.lblCc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCc.Location = new System.Drawing.Point(325, 66);
             this.lblCc.Name = "lblCc";
-            this.lblCc.Size = new System.Drawing.Size(23, 13);
+            this.lblCc.Size = new System.Drawing.Size(28, 17);
             this.lblCc.TabIndex = 1;
             this.lblCc.Text = "Cc:";
             // 
             // lblCco
             // 
             this.lblCco.AutoSize = true;
-            this.lblCco.Location = new System.Drawing.Point(238, 74);
-            this.lblCco.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCco.Location = new System.Drawing.Point(317, 91);
             this.lblCco.Name = "lblCco";
-            this.lblCco.Size = new System.Drawing.Size(29, 13);
+            this.lblCco.Size = new System.Drawing.Size(36, 17);
             this.lblCco.TabIndex = 2;
             this.lblCco.Text = "Cco:";
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(280, 28);
-            this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.maskedTextBox1.Location = new System.Drawing.Point(373, 34);
+            this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(293, 20);
+            this.maskedTextBox1.Size = new System.Drawing.Size(389, 22);
             this.maskedTextBox1.TabIndex = 3;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(280, 51);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Location = new System.Drawing.Point(373, 63);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(293, 20);
+            this.textBox1.Size = new System.Drawing.Size(389, 22);
             this.textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(280, 74);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Location = new System.Drawing.Point(373, 91);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(293, 20);
+            this.textBox2.Size = new System.Drawing.Size(389, 22);
             this.textBox2.TabIndex = 5;
             // 
             // lblAssunto
             // 
             this.lblAssunto.AutoSize = true;
-            this.lblAssunto.Location = new System.Drawing.Point(6, 128);
-            this.lblAssunto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblAssunto.Location = new System.Drawing.Point(8, 158);
             this.lblAssunto.Name = "lblAssunto";
-            this.lblAssunto.Size = new System.Drawing.Size(48, 13);
+            this.lblAssunto.Size = new System.Drawing.Size(63, 17);
             this.lblAssunto.TabIndex = 6;
             this.lblAssunto.Text = "Assunto:";
             // 
             // lblAnexos
             // 
             this.lblAnexos.AutoSize = true;
-            this.lblAnexos.Location = new System.Drawing.Point(10, 157);
-            this.lblAnexos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblAnexos.Location = new System.Drawing.Point(13, 193);
             this.lblAnexos.Name = "lblAnexos";
-            this.lblAnexos.Size = new System.Drawing.Size(45, 13);
+            this.lblAnexos.Size = new System.Drawing.Size(58, 17);
             this.lblAnexos.TabIndex = 7;
             this.lblAnexos.Text = "Anexos:";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(68, 128);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Location = new System.Drawing.Point(91, 158);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(505, 20);
+            this.textBox3.Size = new System.Drawing.Size(672, 22);
             this.textBox3.TabIndex = 8;
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(68, 235);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox1.Location = new System.Drawing.Point(91, 289);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(505, 145);
+            this.richTextBox1.Size = new System.Drawing.Size(672, 178);
             this.richTextBox1.TabIndex = 10;
             this.richTextBox1.Text = "";
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(68, 157);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(91, 193);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(366, 56);
+            this.listBox1.Size = new System.Drawing.Size(487, 68);
             this.listBox1.TabIndex = 12;
             // 
             // btnEnviar
             // 
-            this.btnEnviar.Location = new System.Drawing.Point(12, 11);
-            this.btnEnviar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEnviar.Location = new System.Drawing.Point(16, 14);
+            this.btnEnviar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEnviar.Name = "btnEnviar";
-            this.btnEnviar.Size = new System.Drawing.Size(195, 100);
+            this.btnEnviar.Size = new System.Drawing.Size(260, 123);
             this.btnEnviar.TabIndex = 13;
             this.btnEnviar.Text = "Enviar";
             this.btnEnviar.UseVisualStyleBackColor = true;
@@ -159,10 +155,10 @@
             // 
             // btnAnexos
             // 
-            this.btnAnexos.Location = new System.Drawing.Point(437, 157);
-            this.btnAnexos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAnexos.Location = new System.Drawing.Point(583, 193);
+            this.btnAnexos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAnexos.Name = "btnAnexos";
-            this.btnAnexos.Size = new System.Drawing.Size(135, 55);
+            this.btnAnexos.Size = new System.Drawing.Size(180, 68);
             this.btnAnexos.TabIndex = 14;
             this.btnAnexos.Text = "Anexar";
             this.btnAnexos.UseVisualStyleBackColor = true;
@@ -175,9 +171,9 @@
             // 
             // frmCorrespondecia
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(580, 393);
+            this.ClientSize = new System.Drawing.Size(773, 484);
             this.Controls.Add(this.btnAnexos);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.listBox1);
@@ -192,10 +188,9 @@
             this.Controls.Add(this.lblCc);
             this.Controls.Add(this.lblPara);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmCorrespondecia";
             this.Text = "Correspondência";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmCorrespondecia_Load);
             ((System.ComponentModel.ISupportInitialize)(this.file)).EndInit();
             this.ResumeLayout(false);

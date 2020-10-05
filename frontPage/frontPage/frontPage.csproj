@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmCondomino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCondomino.Designer.cs">
+      <DependentUpon>frmCondomino.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMensagens.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,17 +64,17 @@
     <Compile Include="frmMenu.Designer.cs">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmPortaria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmPortaria.Designer.cs">
-      <DependentUpon>frmPortaria.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmCorrespondecia.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmCorrespondecia.Designer.cs">
       <DependentUpon>frmCorrespondecia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReclamacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReclamacao.Designer.cs">
+      <DependentUpon>frmReclamacao.cs</DependentUpon>
     </Compile>
     <Compile Include="frmReservas.cs">
       <SubType>Form</SubType>
@@ -76,22 +82,34 @@
     <Compile Include="frmReservas.Designer.cs">
       <DependentUpon>frmReservas.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSindico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSindico.Designer.cs">
+      <DependentUpon>frmSindico.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCondomino.resx">
+      <DependentUpon>frmCondomino.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMensagens.resx">
       <DependentUpon>frmMensagens.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPortaria.resx">
-      <DependentUpon>frmPortaria.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmCorrespondecia.resx">
       <DependentUpon>frmCorrespondecia.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmReclamacao.resx">
+      <DependentUpon>frmReclamacao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmReservas.resx">
       <DependentUpon>frmReservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSindico.resx">
+      <DependentUpon>frmSindico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
