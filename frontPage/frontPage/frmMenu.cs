@@ -87,5 +87,10 @@ namespace frontPage
         {
             System.Diagnostics.Process.Start(e.Link.LinkData.ToString());
         }
+
+        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+                
+        }
     }
 }
