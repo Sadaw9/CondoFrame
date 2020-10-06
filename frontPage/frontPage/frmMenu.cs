@@ -20,6 +20,8 @@ namespace frontPage
         private void Form1_Load(object sender, EventArgs e)
         {
             lblData.Text = DateTime.Today.ToLongDateString();
+            linkLabel1.Text = "Clique aqui para entrar em seu email";
+            linkLabel1.Links.Add(0,36, "https://myaccount.google.com/?utm_source=sign_in_no_continue");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -74,6 +76,16 @@ namespace frontPage
         {
             frmReclamacao newfuncao1 = new frmReclamacao();
             newfuncao1.ShowDialog();
+        }
+
+        private void link_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(e.Link.LinkData.ToString());
         }
     }
 }
